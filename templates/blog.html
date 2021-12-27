@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+  <head>
+    <title>This is the title of the webpage!</title>
+  </head>
+  <body>
+    {% for file in files %}
+    <ul>
+      <li><a href="/blog/{{file}}">{{file}}</a></ul>
+    </ul>
+    {% endfor %}
+  </body>
+</html>

@@ -1,0 +1,6 @@
+.main-container {
+    flex-direction: column;
+}
+.info-container {
+    width: 100%;
+}
