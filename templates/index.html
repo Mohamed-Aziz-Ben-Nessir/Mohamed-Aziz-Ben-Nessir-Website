@@ -1,110 +1,62 @@
-<!doctype html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <title>Mohamed Aziz</title>
-        <link rel='stylesheet' type="text/css" href={{ url_for('static', path='/css/style.css') }}/>
-        <link rel='stylesheet' type="text/css" media="screen and (max-width: 690px)" href={{ url_for('static', path='/css/mobile.css') }}/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    </head>
-    <body>
-        <div class="main-container">
-            <div class="info-container">
-                <h1>Mohamed Aziz Ben Nessir</h1>
-                <div class="tagline">Data Scientist</div>
-                <fieldset>
-                    <legend>About Me</legend>
-                    <ul>
-                        <li>
-                            <i class="fas fa-map-marker-alt"></i>
-                            Tunis, Tunisia
-                        </li>
-                        <li>
-                            <i class="fas fa-university"></i>
-                            Higher Institute Of Computer Science Ariana
-                        </li>
-                        <!--
-                        <li>
-                            <i class="fas fa-building"></i>
-                            Job Place
-                        </li>
-                        -->
-                    </ul>
-                </fieldset>
-                <fieldset>
-                    <legend>Skills</legend>
-                    <ul>
-                        <li>
-                            <i class="fas fa-code"></i>
-                            Python,C,C++,Java,Rust,JavaScript
-                        </li>
-                        <li>
-                            <i class="fas fa-server"></i>
-                            Git,Docker,kubernetes 
-                        </li>
-                        <li>
-                            <i class="fas fa-chart-bar"></i>
-                            Tenserflow,keras,Pytorch
-                        </li>
+	<head>
+		<title>mohamed aziz ben nessir</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+	
+		<meta name="theme-color" content="#ff89dd">
+		<!--<link rel="icon" type="image/x-icon" href="favicon.ico">-->
 
-                        <li>
-                            <i class="fas fa-terminal"></i>
-                            Linux Enthusiast
-                        </li>
-                    </ul>
-                </fieldset>
-                <fieldset>
-                    <legend>Links</legend>
-                    <ul class="link-list">
-                        <li>
-                            <i class="fab fa-github-square"></i>
-                            <a href="https://github.com/Mohamed-Aziz-Ben-Nessir">
-                                GitHub
-                            </a>
-                        </li>
-                        <li>
-                            <i class="fab fa-linkedin"></i>
-                            <a href="https://www.linkedin.com/in/mohamed-aziz-ben-nessir-9b517820a/">
-                                LinkedIn
-                            </a>
-                        </li>
-                        <li>
-                            <i class="fas fa-code"></i>
-                            <a href="https://codeforces.com/profile/Jack-of-all-trades"> CodeForces</a>
-                        </li>
-                        <li>
-                            <i class="fas fa-code"></i>
-                            <a href="https://www.kaggle.com/mohamedazizbennessir"> Kaggle </a>
-                        </li>
+		<meta property="og:site_name" content="MohamedAzizBenNessir" />
+		<link href="../static/css/modesta.css" type="text/css" rel="stylesheet">
+		<script src="../static/js/modesta.js" type="text/javascript" charset="utf-8"></script>
+		<link href="https://cdn.jsdelivr.net/npm/victormono@latest/dist/index.min.css" type="text/css" rel="stylesheet">
+	<style>
+		.victor-mono-i {
+			font-family: 'Victor Mono', monospace;
+			font-style: italic;
+		}
+		* {
+			font-family: 'Victor Mono', monospace;
+		}
+	</style>
+	</head>
 
-                        <li>
-                            <i class="fas fa-envelope-square"></i>
-                            <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%6D%6F%68%61%6D%65%64%61%7A%69%7A%2E%62%65%6E%6E%65%73%73%69%72%40%65%74%75%64%69%61%6E%74%2D%69%73%69%2E%75%74%6D%2E%74%6E">email me</a>
-                        </li>
-                    </ul>
-                </fieldset>
-                <fieldset>
-            <legend>Portfolio</legend>
-            <ul class="link-list">
-                <li>
-                    <i class="fa fa-file" aria-hidden="true"></i>
-                    <a href="#">Resume</a>
+	<body>
+		<section class="fullscreen">
+			<div class="background" style="background-image: url('../static/assets/background.png');"></div>
+			<div class="center-object">
+				<section class="me unset">
+					<img draggable="false" src="../static/assets/avatar.png" class="image-title">
+					<div class="unset">
+					  <h1 class="undertitle victor-mono-i">Mohamed Aziz Ben Nessir</h1>
+					  <p class="undertitle victor-mono-i">Machine Learning Enthusiast <br>I like wirtting Minimal and Simple code</p>
+					</div>
+				</section>
+			  <div class="buttons">
+				<a href="https://www.linkedin.com/in/mohamed-aziz-ben-nessir-9b517820a/" class="btn hover linkedin-border victor-mono-i" target="_blank">Linkedin</a>
+				<a href="https://github.com/Mohamed-Aziz-Ben-Nessir" class="btn hover linkedin-border victor-mono-i" target="_blank">Github</a>
+				<a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%6D%6F%68%61%6D%65%64%61%7A%69%7A%2E%62%65%6E%6E%65%73%73%69%72%40%65%74%75%64%69%61%6E%74%2D%69%73%69%2E%75%74%6D%2E%74%6E" class="btn hover twitter-border victor-mono-i" target="_blank">Email</a>
+				<a href="/blog" class="btn hover telegram-border victor-mono-i" target="_blank">Blog</a>
+			  </div>
+			</div>
+			<div class="arrow bounce">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 481.32 291.98" class="white-fill">
+					<path d="M466.5,15.5L466,15c-19.8-19.8-52-19.8-71.9,0L240.8,168.3L87.2,14.8C67.4-5,35.2-5,15.4,14.8l-0.5,0.5 C-5,35.2-5,67.4,14.8,87.2l186.6,186.6c0.9,1,1.8,2,2.7,3v0c3.8,3.8,8.1,6.9,12.7,9.3c17,9,38.1,7.7,53.9-3.9 c2.2-1.6,4.4-3.4,6.4-5.4L466.5,87.4C486.4,67.6,486.4,35.4,466.5,15.5z"/>
+				</svg>
+			</div>
+		</section>
+		<section class="container">
+			<div class="box-container">
+				<h4 class="undertitle victor-mono watermelon-text">Hello there!</h4>
+				<p class="victor-mono">
+				   My name is mohamed aziz. I'm a DataScientist and a programmer.<br>
+					 I am also a compatative programmer, I compete on <a href="https://www.kaggle.com/mohamedazizbennessir" color="watermelon-text">Kaggle</a> and <a href="https://codeforces.com/profile/Jack-of-all-trades" style="color:watermelon-text">Code Forces</a>
+				  
+					I like to <a href="https://github.com/Mohamed-Aziz-Ben-Nessir/dotfiles">rice</a> my linux workflow<br>
+					 I really like the open source ecosystem and I try to contribute to it as much as possible. 
+					 <br>I also do some web-development from time to time!<br>
+				</p>
 
-                </li>
-                <li>
-                    <i class="fas fa-code-branch"></i>                    <a href="https://github.com/Mohamed-Aziz-Ben-Nessir/DataSciencePortfolio">
-                                DataSciencePortfolio
-                            </a>
-                        </li>
-                        <li>
-                            <i class="fas fa-code-branch"></i>
-                            <a href="https://github.com/Mohamed-Aziz-Ben-Nessir/WebDevelopmentPortfolio">
-                                WebDevelopmentPortfolio
-                            </a>
-                        </li>
-                    </ul>
-                </fieldset>
-            </div>
-    </body>
+	</body>
 </html>

@@ -33,4 +33,4 @@ def list_files():
     return files
 
 if __name__ == '__main__':
-    uvicorn.run(app) 
+    uvicorn.run(app,reload=True)
