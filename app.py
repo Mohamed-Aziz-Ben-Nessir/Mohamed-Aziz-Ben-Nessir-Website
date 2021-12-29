@@ -14,23 +14,5 @@ templates = Jinja2Templates(directory="templates")
 def index(request: Request):
     return templates.TemplateResponse("index.html", {"request": request})
 
-@app.get('/blog/{file}')
-def read(file):
-    file_path = os.path.join(path,file)
-    if os.path.exists(file_path):
-        return FileResponse(file_path,media_type="text/plain")
-    return {"error" : "File not found!"}
-
-@app.get('/blog', response_class=HTMLResponse)
-def Blog(request: Request):
-    files=list_files()
-    return templates.TemplateResponse("blog.html", {"request": request,"files":files})
-
-def list_files():
-    files = []
-    for filename in os.listdir(path):
-        files.append(filename)
-    return files
-
 if __name__ == '__main__':
     uvicorn.run(app,reload=True)

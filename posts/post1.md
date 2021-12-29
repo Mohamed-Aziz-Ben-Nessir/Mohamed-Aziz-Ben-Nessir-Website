@@ -1,2 +1,0 @@
-# Markdown: Syntax
-#	post1
